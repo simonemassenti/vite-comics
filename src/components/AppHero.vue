@@ -14,6 +14,6 @@ export default {
 </div>
 </template>
 
-<style>
-
+<style scoped lang="scss">
+@use "../style/partials/hero";
 </style>

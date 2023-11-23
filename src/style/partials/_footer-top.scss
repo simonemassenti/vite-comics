@@ -1,0 +1,35 @@
+@use "./_mixins" as *;
+@use "./variables" as *;
+
+.footer-top {
+    height: 20rem;
+    background-image: url('/src/assets/img/footer-bg.jpg');
+    color: white;
+    padding: 3rem 10rem;
+
+    @include flex(row, flex-start, top);
+
+    div {
+        margin-left: 1.5rem;
+
+        li {
+            list-style-type: none;
+        }
+    }
+
+
+
+}
+
+.title {
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: .5rem;
+}
+
+.subtitle {
+    font-size: .7rem;
+    @include flex(column, flex-start);
+    margin-bottom: .3rem;
+    color: gray;
+}

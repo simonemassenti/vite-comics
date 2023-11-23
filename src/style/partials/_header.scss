@@ -3,9 +3,10 @@
 
 header {
     @include flex(row, space-between);
-    padding: 1rem 5rem;
+    padding: 1rem 5rem 0;
     img{
         width: 70px;
+        padding-bottom: .5rem;
     }
 }
 
@@ -14,11 +15,12 @@ header {
     list-style-type: none;
     
     li{
-        padding-top: .5rem;
-        margin-right: 2rem;
+        margin-right: 1rem;
         font-size: .8rem;
         font-weight: 600;
-        height: 3rem;
+        height: 5rem;
+        line-height: 5rem;
+        text-align: center;
         &.active {
             color: $primary_color;
             border-bottom: 5px solid $primary_color;

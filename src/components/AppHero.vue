@@ -9,7 +9,9 @@ export default {
 </script>
 
 <template>
-<h2>Hero</h2>
+<div class="hero">
+ -- > Content goes here &lt; --
+</div>
 </template>
 
 <style>

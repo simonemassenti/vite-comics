@@ -1,0 +1,28 @@
+@use "./_mixins" as *;
+@use "./variables" as *;
+
+header {
+    @include flex(row, space-between);
+    padding: 1rem 5rem;
+    img{
+        width: 70px;
+    }
+}
+
+.menu {
+    @include flex(row, space-between);
+    list-style-type: none;
+    
+    li{
+        margin-right: 2rem;
+        font-size: .8rem;
+        font-family: sans-serif;
+        font-weight: 600;
+        height: 3rem;
+        &.active {
+            color: $primary_color;
+            border-bottom: 5px solid $primary_color;
+        }
+    }
+
+}

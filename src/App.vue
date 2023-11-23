@@ -14,20 +14,21 @@ export default {
     },
     data () {
         return {
-
+            
         }
     }
 }
 </script>
 
 <template>
-<AppHeader />
-<AppHero />
-<AppMain />
-<AppFooterTop />
-<AppFooterBottom />
+<AppHeader/>
+<AppHero/>
+<AppMain/>
+<AppFooterTop/>
+<AppFooterBottom/>
 </template>
 
-<style>
+<style lang="scss">
+@use "./style/general.scss";
 
 </style>

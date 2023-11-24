@@ -1,0 +1,30 @@
+@use "./_mixins" as *;
+@use "./variables" as *;
+
+.wrapper {
+     background-color: black; 
+}
+
+.container {
+    //debug
+    color: $primary_color_text;
+    font-weight: bold;
+
+    .p-name{
+        position: relative;
+        top: -7px;
+        left: 10%;
+        padding: .3rem .7rem;
+        background-color: $primary_color;
+        display: inline;
+    }
+
+    .row {
+
+        @include flex(row, flex-start, top, wrap);
+        .col {
+            width: calc(100% / 6);
+        }
+
+    }
+}

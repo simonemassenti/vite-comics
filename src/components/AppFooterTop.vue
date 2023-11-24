@@ -94,46 +94,50 @@ export default {
     <div class="footer-top">
         <div class="container">
             <div>
-                <ul>
-                    <li class="title">DC COMICS</li>
-                    <li>
-                        <ul>
-                            <li v-for="item in dcComics" class="subtitle"> {{ item.title }} </li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="first-col">
+                    <ul>
+                        <li class="title">DC COMICS</li>
+                        <li>
+                            <ul>
+                                <li v-for="item in dcComics" class="subtitle"> {{ item.title }} </li>
+                            </ul>
+                        </li>
+                    </ul>
 
-                <ul>
-                    <li class="title">SHOP</li>
-                    <li>
-                        <ul>
-                            <li v-for="item in shop" class="subtitle"> {{ item.title }} </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+                    <ul>
+                        <li class="title">SHOP</li>
+                        <li>
+                            <ul>
+                                <li v-for="item in shop" class="subtitle"> {{ item.title }} </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
-            <div>
-                <ul>
-                    <li class="title">DC</li>
-                    <li>
-                        <ul>
-                            <li v-for="item in dc" class="subtitle"> {{ item.title }} </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+                <div>
+                    <ul>
+                        <li class="title">DC</li>
+                        <li>
+                            <ul>
+                                <li v-for="item in dc" class="subtitle"> {{ item.title }} </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
 
-            <div>
-                <ul>
-                    <li class="title">SITES</li>
-                    <li>
-                        <ul>
-                            <li v-for="item in sites" class="subtitle"> {{ item.title }} </li>
-                        </ul>
-                    </li>
-                </ul>
+                <div>
+                    <ul>
+                        <li class="title">SITES</li>
+                        <li>
+                            <ul>
+                                <li v-for="item in sites" class="subtitle"> {{ item.title }} </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
+            
+            <img src="../assets/img/dc-logo-bg.png" alt="">
         </div>
 
 

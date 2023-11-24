@@ -37,7 +37,7 @@ export default {
 <template>
     <div class="main">
 
-        <div>
+        <div class="container">
             <ul>
                 <li v-for="item in buyMenu">
                     <img :src="getImagePath(item.image)" alt="">

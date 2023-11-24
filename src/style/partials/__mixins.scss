@@ -1,6 +1,9 @@
-@mixin flex($direction: row, $justify-content: center, $align-items: center) {
+@use "./variables" as *;
+
+@mixin flex($direction: row, $justify-content: center, $align-items: center, $wrap: nowrap) {
     display: flex;
     direction: $direction;
     justify-content: $justify-content;
     align-items: $align-items;
+    flex-wrap: $wrap;
 }

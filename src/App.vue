@@ -1,34 +1,35 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
-import AppHero from './components/AppHero.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
+import AppCurrentSeries from './components/AppCurrentSeries.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooterTop from'./components/AppFooterTop.vue';
-import AppFooterBottom from'./components/AppFooterBottom.vue';
+import AppFooterTop from './components/AppFooterTop.vue';
+import AppFooterBottom from './components/AppFooterBottom.vue';
 export default {
     components: {
         AppHeader,
-        AppHero,
+        AppJumbotron,
+        AppCurrentSeries,
         AppMain,
         AppFooterTop,
         AppFooterBottom
     },
-    data () {
+    data() {
         return {
-            
         }
     }
 }
 </script>
 
 <template>
-<AppHeader/>
-<AppHero/>
-<AppMain/>
-<AppFooterTop/>
-<AppFooterBottom/>
+    <AppHeader />
+    <AppJumbotron/>
+    <AppCurrentSeries/>
+    <AppMain />
+    <AppFooterTop />
+    <AppFooterBottom />
 </template>
 
 <style lang="scss">
 @use "./style/general.scss";
-
 </style>

@@ -7,14 +7,13 @@
     padding: 2rem;
 
     div {
-        width: 80%;
-        margin: 0 auto;
+        
         ul {
             @include flex(row, space-around);
             list-style-type: none;
 
             li {
-                color: white;
+                color: $primary_color_text;
                 @include flex();
                 font-size: .7rem;
 

@@ -52,11 +52,13 @@ export default {
 <template>
     <header>
 
-        <div>
+        <div class="container">
             <img src="../assets/img/dc-logo.png" alt="">
 
             <ul class="menu">
-                <li v-for="item in navMenu" :class="{ 'active': item.status }">{{ item.title.toUpperCase() }}</li>
+                <li v-for="item in navMenu" :class="{ 'active': item.status }">
+                <a href=""> {{ item.title.toUpperCase() }} </a>       
+                </li>
             </ul>
         </div>
 

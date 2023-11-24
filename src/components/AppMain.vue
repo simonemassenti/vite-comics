@@ -35,17 +35,20 @@ export default {
 </script>
 
 <template>
-<div class="main">
-    <ul>
-        <li v-for="item in buyMenu"> 
-            <img :src="getImagePath(item.image)" alt=""> 
-            <span>{{ item.name.toUpperCase() }}</span>
-        </li>
-    </ul>
-</div>
+    <div class="main">
+
+        <div>
+            <ul>
+                <li v-for="item in buyMenu">
+                    <img :src="getImagePath(item.image)" alt="">
+                    <span>{{ item.name.toUpperCase() }}</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </template>
 
 <style scoped lang="scss">
 @use "../style/partials/main"
-
 </style>

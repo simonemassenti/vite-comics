@@ -10,7 +10,11 @@ export default {
 
 <template>
 <div class="hero">
- -- > Content goes here &lt; --
+
+    <div>
+         -- > Content goes here &lt; --
+    </div>
+
 </div>
 </template>
 

@@ -2,7 +2,7 @@
 export default {
     data() {
         return {
-            navMenu : [
+            navMenu: [
                 {
                     title: "Characters",
                     status: false
@@ -50,13 +50,17 @@ export default {
 </script>
 
 <template>
-<header>
-    <img src="../assets/img/dc-logo.png" alt="">
-    
-    <ul class="menu">
-        <li v-for="item in navMenu" :class="{'active': item.status}">{{ item.title.toUpperCase() }}</li>
-    </ul>
-</header>
+    <header>
+
+        <div>
+            <img src="../assets/img/dc-logo.png" alt="">
+
+            <ul class="menu">
+                <li v-for="item in navMenu" :class="{ 'active': item.status }">{{ item.title.toUpperCase() }}</li>
+            </ul>
+        </div>
+
+    </header>
 </template>
 
 <style lang="scss" scoped>

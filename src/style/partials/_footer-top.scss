@@ -5,17 +5,23 @@
     height: 20rem;
     background-image: url('/src/assets/img/footer-bg.jpg');
     color: white;
-    padding: 3rem 10rem;
+    padding: 3rem 0;
 
-    @include flex(row, flex-start, top);
 
-    div {
-        margin-left: 1.5rem;
+    .container {
+        @include flex(row, flex-start, top);
+        width: 80%;
+        margin: 0 auto;
 
-        li {
-            list-style-type: none;
+        div {
+            margin-left: 1.5rem;
+
+            li {
+                list-style-type: none;
+            }
         }
     }
+
 
 
 

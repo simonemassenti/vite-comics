@@ -4,22 +4,29 @@
 .main {
     height: 7rem;
     background-color: $primary_color;
-    padding: 2rem 10rem;
-    ul{
-        @include flex(row, space-around);
-        list-style-type: none;
+    padding: 2rem;
 
-        li{
-            color: white;
-            @include flex();
-            font-size: .7rem;
-            img {
-                width: 30px;
-            }
+    div {
+        width: 80%;
+        margin: 0 auto;
+        ul {
+            @include flex(row, space-around);
+            list-style-type: none;
 
-            span {
-                margin-left: .5rem;
+            li {
+                color: white;
+                @include flex();
+                font-size: .7rem;
+
+                img {
+                    width: 30px;
+                }
+
+                span {
+                    margin-left: .5rem;
+                }
             }
         }
     }
+
 }

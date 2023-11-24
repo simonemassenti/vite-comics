@@ -6,15 +6,15 @@
     background-image: url('/src/assets/img/footer-bg.jpg');
     color: $primary_color_text;
     
-
+    overflow: hidden;
 
     .container {
         @include flex(row, space-between, top);
-        overflow: hidden;
+
         div {
             
             @include flex(row, flex-start, top);
-
+            
             .first-col {
                 padding: 3rem 0;
                 display: block;
@@ -29,9 +29,9 @@
         position: relative;
         img{
             position: absolute;
-            right: 10%;
+            right: 0%;
             top: -15%;
-            width: 450px;
+            width: 25rem;
         }
 
     }

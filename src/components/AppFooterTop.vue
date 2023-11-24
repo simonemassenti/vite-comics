@@ -92,6 +92,7 @@ export default {
 
 <template>
     <div class="footer-top">
+
         <div class="container">
             <div>
                 <div class="first-col">
@@ -146,4 +147,6 @@ export default {
 
 <style scoped lang="scss">
 @use "../style/partials/footer-top";
+
+
 </style>

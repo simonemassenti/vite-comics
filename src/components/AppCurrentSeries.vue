@@ -2,7 +2,7 @@
 import SerieCard from './SerieCard.vue';
 
 export default {
-    preps: {
+    props: {
         series: Array
     },
     data() {
